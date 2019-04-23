@@ -1,7 +1,7 @@
 # react-native-child-component
 Example for create child component. See `App.js` and `Page.js`
 
-## Focus :-P
+## Focus
 
 `Page.js` is file component Page. it has title bar. i want to show some title bar in app so i create this component to show title bar and botton of title bar i want to show content and content from parant (See App.js)
 
