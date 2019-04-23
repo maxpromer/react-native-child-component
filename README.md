@@ -19,14 +19,14 @@ export default class Page extends Component {
                 </View>
                 
                 {/* Body */}
-                <View>{this.props.children}</View>
+                <View>{this.props.children}</View>  <-- focus here
             </View>
         );
     }
 }
 ```
 
-`App.js` is parent of Page.js. in this file use Page component and in Page compent has child.
+`App.js` is parent of Page.js. in this file use Page component and in Page component has child.
 
 ```javascript
 import React, { Component } from 'react';
